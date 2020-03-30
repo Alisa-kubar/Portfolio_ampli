@@ -96,7 +96,7 @@ box-shadow:  0px 10px 73px -6px lightgrey;
 	margin-top: 200px;
 	
 	padding-bottom: 200px;
-	 margin-left: 50%;
+	 margin-left: 49%;
     margin-right: -50%;
     transform: translate(-50%);
 }
@@ -180,6 +180,9 @@ box-shadow:  0px 10px 73px -6px lightgrey;
 	font-weight: bold;
 }
 .section5{
+	 margin-left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
 width: 80%;
 	margin: 0 auto;
 	padding-top: 250px;
