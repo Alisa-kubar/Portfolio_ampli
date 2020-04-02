@@ -1,5 +1,7 @@
-*{margin: 0;
-padding: 0;}
+*{
+	margin: 0;
+	padding: 0;
+}
 html{
 	scroll-behavior: smooth;
 }
@@ -16,7 +18,6 @@ header ul{
 	position: fixed;
 	list-style: none;
 	background-color: rgba(244,244,244,0.7);
-
 	z-index: 5;
 }
 header a{
@@ -37,31 +38,23 @@ header a:hover{
 
 }
 .section1{
-
 	
-box-shadow: inset 0px 10px 73px -6px #ffffff;
-box-shadow:  0px 10px 73px -6px lightgrey;
 	width: 100%;
 	margin: 0 auto;
 	display:flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	box-shadow: inset 0px 10px 73px -6px #ffffff;
+	box-shadow:  0px 10px 73px -6px lightgrey;
 }
 .section1 h1{
-		font-family: 'League Script', cursive;
+	font-family: 'League Script', cursive;
 	font-size: 100px;
-	font-style: cursive;
 	margin-bottom: 220px;
 	margin-top:220px;
 	word-spacing: 200px;
-}
-.section1 p{
-	position: absolute;
-	margin-left: 0px;
-	-webkit-transform: rotateY(90deg);
-	font-size: 1000px;
-	font-color:black;
+	text-align: center;
 }
 .section1 img{
 	position: absolute;
@@ -78,12 +71,9 @@ box-shadow:  0px 10px 73px -6px lightgrey;
 .section2 h1{
 	font-family: 'League Script', cursive;
 	font-size: 100px;
-	font-style: cursive;
-	
 	margin-top: 200px;
 	word-spacing: 100px;
 	opacity: 0.2;
-	
 	text-align: center;
 }
 .section2 h2{
@@ -92,18 +82,18 @@ box-shadow:  0px 10px 73px -6px lightgrey;
     font-family: 'Playfair Display', serif;
     font-weight: lighter;
 	margin-top: -200px;
-	
 	padding-bottom: 200px;
-	
+	margin-left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
 }
 .section3{
-		width: 100%;
+	width: 100%;
 	margin: 0 auto;
 	padding-top: 50px;
 	display:flex;
 	flex-direction: column;
 	align-items: center;
-	
 }
 .section3 ul{
 	display:flex;
@@ -113,7 +103,7 @@ box-shadow:  0px 10px 73px -6px lightgrey;
 	margin: 0 auto;
 	justify-content: space-between;
 	position: absolute;
-	padding-top: 200px;
+	margin-top: 200px;
 
 }
 .section3 div{
@@ -122,7 +112,6 @@ box-shadow:  0px 10px 73px -6px lightgrey;
 .section3 li{
 	font-family: serif;
 }
-
 .section3 p{
 	margin-top: 0;
 	left: 50px;
@@ -164,10 +153,10 @@ box-shadow:  0px 10px 73px -6px lightgrey;
 	opacity: 0.2;
 }
 .section4 h2{
-		font-family: 'League Script', cursive;
-		font-size: 45px;
-		text-align: center;
-		margin-top: -105px;
+	font-family: 'League Script', cursive;
+	font-size: 45px;
+	text-align: center;
+	margin-top: -105px;
 }
 .section4 p{
 	margin-top: 40px;
@@ -177,19 +166,19 @@ box-shadow:  0px 10px 73px -6px lightgrey;
 }
 .section5{
 	justify-content: center;
-width: 80%;
+	width: 80%;
 	margin: 0 auto;
 	padding-top: 250px;
 	padding-bottom: 350px;
 	display:flex;
 	flex-direction: row;
 	margin: 0 auto;
-align-items: center;
+	align-items: center;
 
 }	
 .section5 h1{
 
-font-family: 'League Script', cursive;
+	font-family: 'League Script', cursive;
 	font-size: 100px;
 }
 .section5 img{
@@ -198,48 +187,48 @@ font-family: 'League Script', cursive;
 	margin-right: 68.2px;
 }
 .section5 p{
-		font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display', serif;
 }
 .section6{
-width: 100%;
-	 margin-left: 50%;
+	width: 100%;
+	margin-left: 50%;
     margin-right: -50%;
     
 	margin: 0 auto;
 	display:flex;
 	flex-direction: row;
 	margin: 0 auto;
-align-items: center;	
-box-shadow: inset 0px 10px 73px -6px #ffffff;
-  box-shadow:0px 7px 10px -9px grey;}
+	align-items: center;	
+	box-shadow: inset 0px 10px 73px -6px #ffffff;
+   	box-shadow:0px 7px 10px -9px grey;}
 .section6 img{
 	height: 500px;
-	width: 675px;
+	width: 50%;
 	float:left;
 }
+
 .section6 div{
 	width:159px;
 	margin-left: 49px;
 }
 .section6 p{
-		font-family: 'Playfair Display', serif;
-		margin-top: 144px    
+	font-family: 'Playfair Display', serif;
+	margin-top: 144px    
 }
 .section6 h1{
 	font-family: sans-serif;
-font-weight:lighter;
-letter-spacing:2px;
+	font-weight:lighter;
+	letter-spacing:2px;
 	font-size: 47px;
 }
 .section7{
-width: 100%;
+	width: 100%;
 	margin: 0 auto;
-	
 	display:flex;
 	flex-direction: row;
 	margin: 0 auto;
-align-items: center;
-justify-content: flex-end;	
+	align-items: center;
+	justify-content: flex-end;	
 
 }
 .t4{
@@ -249,7 +238,7 @@ width: 700px;
 }
 .section7 img{
 	height: 500px;
-width: 675px;
+width: 50%;
 	float:right;
 z-index: -3;
 }
@@ -263,11 +252,13 @@ z-index: -3;
 		text-align:right;  
 }
 .section7 h1{
-	margin-left: -50%;
+	
 	font-family: sans-serif;
 font-weight:lighter;
 letter-spacing:2px;
 	font-size: 47px;
+	text-align: center;
+transform: translateX(-80px);
 }
 .decor {
   position: relative;
@@ -353,4 +344,130 @@ letter-spacing:2px;
   font-weight: 500;
   font-size: 24px;
   color: #707981;
+}
+@media(max-width: 760px){
+	.section1 h1{
+		margin-top: 450px;
+		font-size: 50px;
+		word-spacing: 10px;
+		margin-bottom: 10px
+	}
+	.section1 img{
+		margin-top: -30px;
+	}
+	.section2 h1{
+		font-size: 50px;
+		word-spacing: 20px;
+		margin-top: 100px;
+	}
+	.section2 h2{
+		font-size:15px;
+		margin-top: -100px;
+		padding-bottom: 100px;
+	}
+	.section3{
+		padding-top: 0px;
+	}
+	.section3 ul{
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+height: 150px;
+
+font-size: 15px;
+background-color: rgba(244, 244, 244, 0.6)
+	}
+	.section4 {
+			padding-top: 50px;
+			padding-bottom: 800px;
+	}
+	.section4 ul{
+		flex-direction: column;
+}
+	.section4 li{
+		width: 80%;
+	}
+	.section5 {
+		flex-direction: column-reverse;
+		padding-bottom: 0;
+	}
+	.section5 img{
+		display: none;
+	}
+.section5 h1{
+		font-size: 50px;
+		word-spacing: 20px;
+		margin-top: 20px;
+	}
+	.section5 p{
+		display:none;
+	}
+	.section6{
+		flex-direction: column;
+	}
+	.section6 img{
+		width:100%;
+		height: auto;
+	}
+	.section6 .img-box1{
+		width: 100%;
+		height: 40px;
+		outline: hidden;
+	}
+	.section6 h1{
+		padding-top: -20px;
+		color: #f4f4f4;
+		text-align: center;
+		margin-top: -180px;
+	}
+	.section6 p{
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.section6 div{
+		margin-left: 0;
+		width: 100%;
+	}
+		.section7{
+		flex-direction: column;
+	}
+	.section7 img{
+		width:100%;
+		height: auto;
+		margin-top: -430px;
+	}
+	.section7 .img-box1{
+		width: 100%;
+		height: 40px;
+		outline: hidden;
+	}
+	.section7 h1{
+		padding-top: -20px;
+		color: #f4f4f4;
+		text-align: center;
+		margin-top: 180px;
+		transform: translateX(0);
+	}
+	.section7 p{
+		width: 100%;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.section7 div{
+		margin-right: 0;
+		width: 100%;
+	}
+	.section4 ul{
+		padding-left: 15%;
+	}
+	.hidden1{
+		display: none;
+	}
+	.hidden2 .img-h1-container{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
 }
