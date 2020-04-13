@@ -11,7 +11,9 @@
   <link href="https://fonts.googleapis.com/css?family=Lustria|Playfair+Display&display=swap&subset=cyrillic" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
-    
+    <script  src="jquery.js"></script>
+    <script src="rellax.js"></script>
+    <script type="text/javascript" src="parallax.js"></script>
 </head>
 <body>
 	<header>
@@ -23,7 +25,7 @@
                 <a href="#section4">CODING</a>
             </li>
             <li>
-                <a href="#section5">SOFT SKILLS</a>
+                <a href="#section5" id="soft-skills-link">SOFT SKILLS</a>
             </li>
             <li>
                 <a href="#section6">ACT</a>
@@ -35,12 +37,13 @@
     </header>
     <!-- ----------------------------------------------------------------------section1 -->
    <section class="section1">
-   	<h1>Alisa      Kubar</h1>
+   	<h1 class="rellax" data-rellax-speed="4" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">Alisa      Kubar</h1>
    	<img src="1.jpg">
+   	<p>PORTFOLIO</p> 
    </section>
    <!-- -------------------------------------------------------------------------section2 -->
     <section class="section2" id="section2">
-   <div>	<h1>Alisa      Kubar</h1>
+   <div>	<h1 class="rellax" data-rellax-speed="-1" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">Alisa      Kubar</h1>
    	<h2>" Any   
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</h2></div>
    </section>
@@ -49,7 +52,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   <p>SKILLS AND ABILITIES</p> 
    	<img src="2.jpg">
    	
-   	<ul>
+   	<ul class="rellax" data-rellax-speed="0.5" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">
    		<li>
    			CODING
    		</li>
@@ -72,54 +75,46 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         <div>
    		
   <h1 class="txt anim-text-flow">01</h1>
-    <h2>html/css</h2>
-   		<p>Lorem ipsum dolor sit amet,
-         consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt
-           ut labore et dolore magna
-            aliqua. Ut enim ad miniodo 
-        </p>
-    </div>
+<h2>html/css</h2>
+   		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad miniodo </p></div>
    	</li>
-   	<li>
-        <div>
+   	<li><div>
    		
   <h1 class="txt anim-text-flow">02</h1>
 </div>
    		<h2>JS</h2>
-   		<p>Lorem ipsum dolor sit amet,
-         consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt 
-      ut labore et dolore magna aliqua.
-       Ut enim ad miniodo </p></div>
+   		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad miniodo </p></div>
    	</li>
    </ul>
    </section>
-   <!-- -------------------------------------------------------------------------section5 -->
-  <section class="section5" >
+  <section class="section5" id="section5">
   	
-  	<h1>Soft Skills</h1>
+  	<h1 class="rellax" data-rellax-speed="-1" data-rellax-xs-speed="0" data-rellax-mobile-speed="0">Soft Skills</h1>
   	<img src="softskillsimg.jpg" id="section5">
   	<p>PORTFOLIO</p>
   </section>
-  <!-- ------------------------------------------------------------------------------------section6 -->
   <section class="section6" id="section6">
-   
-  <img src="3.jpg"></div>
+    <div class="extra-block1">
+  <img src="3.jpg">
+<h1 class="extra-h1-1">ACT</h1>
+</div>
   <div class="text">
   <h1>ACT</h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad miniodo</p></div>
 
   </section>
-  <!-- -----------------------------------------------------------------------------------section7 -->
   <section class="section7" id="section7">
-  
+
   <div class="text">
   <h1>ORATORY</h1>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad miniodo</p></div>
-<img src="4.jpg">
+ <div class="extra-block1">
+  <img src="4.jpg">
+  <h1 class="extra-h1-1">ORATORY</h1>
+</div>
   </section>
-<!-- --------------------------------------------------------------------------------------------Contact Form -->
+
+        <!-- Sign up form -->
         <section class="signup">
             <div class="container">
                 <div class="signup-content">
